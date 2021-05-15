@@ -1,4 +1,4 @@
 pyautogui
 keyboard
-win32api
-win32con
+pywin32
+opencv-python
