@@ -1,5 +1,4 @@
 pyautogui
-time
 keyboard
 win32api
 win32con
