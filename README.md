@@ -7,4 +7,5 @@ Image recognition bot written in python
 ###### pip install -r requirements.txt
 ###### use the get mouse position file to get the coordinates of your targets
 ###### put the coordinates in your bot.py file
-######
+###### replace the color codes in the bot.py file
+###### run the bot.py file
