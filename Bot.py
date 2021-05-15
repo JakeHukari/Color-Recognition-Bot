@@ -19,8 +19,8 @@ while keyboard.is_pressed('q') == False:
     if pyautogui.pixel(123,456)[0,0,0] == 0:
         click(-1426, 555)
     if pyautogui.pixel(123,456)[0,0,0] == 0:
-        click(-1339, 555)
+        click(123,456)
     if pyautogui.pixel(123,456)[0,0,0] == 0:
-        click(-1260, 555)
+        click(123,456)
     if pyautogui.pixel(123,456)[0,0,0] == 0:
         click(123,456)
