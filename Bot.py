@@ -16,11 +16,11 @@ def click(x,y):
 while keyboard.is_pressed('q') == False:
 
 # Tells bot where to click and what colors to click
-    if pyautogui.pixel(-1426, 555)[0,0m] == 0:
+    if pyautogui.pixel(-1426, 555)[0,0,0] == 0:
         click(-1426, 555)
-    if pyautogui.pixel(-1426, 555)[0] == 0:
+    if pyautogui.pixel(-1426, 555)[0,0,0] == 0:
         click(-1339, 555)
-    if pyautogui.pixel(-1426, 555)[0] == 0:
+    if pyautogui.pixel(-1426, 555)[0,0,0] == 0:
         click(-1260, 555)
-    if pyautogui.pixel(-1426, 555)[0] == 0:
+    if pyautogui.pixel(-1426, 555)[0,0,0] == 0:
         click(-1150, 555)
