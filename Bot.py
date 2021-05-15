@@ -5,12 +5,14 @@ import keyboard
 import random
 import win32api, win32con
 
+# Click define 
 def click(x,y):
     win32api.SetCursorPos((x,y))
     win32api.mouse_event(win32con.MOUSEEVENTF_pyLEFTDOWN,0,0)
     time.sleep(0.01)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
-    
+
+# Stopping event 
 while keyboard.is_pressed('q') == False:
     
     if pyautogui.pixel(-1426, 555)[0] == 0:
