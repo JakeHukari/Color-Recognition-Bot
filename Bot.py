@@ -14,7 +14,8 @@ def click(x,y):
 
 # Stopping event 
 while keyboard.is_pressed('q') == False:
-    
+
+# Tells bot where to click    
     if pyautogui.pixel(-1426, 555)[0] == 0:
         click(-1426, 555)
     if pyautogui.pixel(-1426, 555)[0] == 0:
